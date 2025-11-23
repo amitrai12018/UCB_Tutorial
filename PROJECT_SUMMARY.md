@@ -139,15 +139,7 @@ def simulate_ucb_episode(
 - Industry-standard visualizations
 - Best practices in UI/UX
 
-## 🚀 How to Use
 
-### Quick Start
-```bash
-# On Unix/Mac
-./run.sh
-
-# On Windows
-run.bat
 
 # Manual
 streamlit run app.py

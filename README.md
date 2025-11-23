@@ -61,7 +61,7 @@ ucb_tutorial_app/
 
 1. **Clone or download the project:**
 ```bash
-cd ucb_tutorial_app
+cd UCB_TUTORIAL
 ```
 
 2. **Create a virtual environment (recommended):**

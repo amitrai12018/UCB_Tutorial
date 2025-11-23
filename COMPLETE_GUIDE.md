@@ -12,11 +12,8 @@ ucb_tutorial_app/
 ├── 📑 tabs.py                  # Tab rendering logic (5 tabs)
 │
 ├── 📦 requirements.txt         # Python dependencies
-├── 🚀 run.sh                   # Startup script (Unix/Mac)
-├── 🚀 run.bat                  # Startup script (Windows)
 │
 ├── 📖 README.md               # Full documentation
-├── ⚡ QUICKSTART.md           # Quick start guide
 └── 🙈 .gitignore              # Git ignore rules
 ```
 
@@ -28,22 +25,6 @@ ucb_tutorial_app/
 
 ### Step 2: Install Dependencies
 
-**Option A - Using startup scripts (Recommended):**
-```bash
-# Unix/Mac
-./run.sh
-
-# Windows
-run.bat
-```
-The scripts will automatically:
-- Create virtual environment
-- Install dependencies
-- Launch the application
-
-**Option B - Manual installation:**
-```bash
-# Create virtual environment
 python -m venv venv
 
 # Activate virtual environment
