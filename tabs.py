@@ -216,11 +216,12 @@ def render_visual_tab(config: dict):
             st.markdown("### 📊 Current Estimates")
             for i in range(len(config["true_ctrs"])):
                 selected = " ← **Selected**" if i == last["action"] else ""
+                ucb_display = f"{last['ucb'][i]:.4f}" if not np.isinf(last['ucb'][i]) else "∞"
                 st.markdown(f"""
                 **Ad {i+1}**{selected}
                 - Estimated CTR (Q): {last['Q'][i]:.4f}
                 - Times shown (N): {int(last['N'][i])}
-                - UCB value: {last['ucb'][i]:.4f if not np.isinf(last['ucb'][i]) else '∞'}
+                - UCB value: {ucb_display}
                 """)
         
         with col_b:
